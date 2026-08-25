@@ -8,7 +8,7 @@ Real engineering practice pulled out of my own projects — not polished writeup
 
 A design document, a README, an ADR — anything written before or early in implementation — drifts from the code the moment nobody is enforcing the link. Six months later the person who wrote it can't answer questions about their own product, and the documents that should help are quietly lying.
 
-This is a full audit report from **[trade-copilot](https://github.com/wTHU1Ew/trade-copilot)**, a personal trading-assistant project (Go backend, React frontend, OKX exchange integration, local-first architecture) — one round of a repeatable practice I run against that codebase: read every contract document (PRD, ADRs, architecture docs, security review, error-code registry) against the actual implementation, and report every place they disagree.
+This is a full audit report from **trade-copilot**, a personal trading-assistant project (Go backend, React frontend, OKX exchange integration, local-first architecture) — one round of a repeatable practice I run against that codebase: read every contract document (PRD, ADRs, architecture docs, security review, error-code registry) against the actual implementation, and report every place they disagree.
 
 What the methodology looks for, specifically:
 
